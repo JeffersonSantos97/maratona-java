@@ -13,7 +13,7 @@ package academy.devdojo.maratonajava.introducao;
 * ( 1. < / 2. > / 3. <= / 4. >= 5. == / 6. != )
 // 1 - menor / 2 - maior / 3 - menor ou igual / 4 - maior ou igual / 5 - igual / 6 - diferente
 
-
+// no boolean a comparação de 10.0 == 10 retorna true; Só não pode ser uma string
 */
 
 
@@ -44,6 +44,17 @@ public class Aula04Operadores {
             colcoar o ( double ) na frente
 
          */
+
+        /*
+          A diferenca de ++ na frente ou atrás, é o momento da execução da ação
+          no primeiro, primeiro imprirme o valor, depois incrementa
+         já no segundo eu incremento primeiro e depois imprimo
+
+        */
+        int contador = 0;
+
+        System.out.println(contador++); // 0
+        System.out.println(++contador); // 1
 
     }
 }

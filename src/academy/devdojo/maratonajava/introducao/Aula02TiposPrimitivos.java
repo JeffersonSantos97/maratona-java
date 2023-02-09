@@ -11,7 +11,7 @@
 
 // ( char ) tem um caractere e deve ser entre ( ' ' )
 
-// boolean sou é true ou é falso
+// boolean só é true ou false
 
 // Inferencia ( var ) quando vc coloca  o var na frente da variável, ela sabe o tipo pelo q vc coloca
 // ex var nome = "jefferson"; // não precisei colocar String, pois o var já fez a inferencia que era uma String
