@@ -9,7 +9,7 @@ package academy.devdojo.maratonajava.javacore.Aintroducaoclass.dominio;
 */
 public class Professor {
 
-    String nome;
-    int idade;
-    char sexo;
+    public String nome;
+    public int idade;
+    public char sexo;
 }
