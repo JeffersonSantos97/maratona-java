@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d730fe77-1228-4f10-82c1-c81916451435" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/dominio/CarroExercicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/dominio/Estudante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/dominio/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/img/Carro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/img/carroReferenciaObj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/img/estudante01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/test/CarroTest01Exercicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/test/EstudanteTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/test/ProfessorTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/introducao/linkedin.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,33 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/jefferson/Intellij-workspace/maratona-java/src/academy/devdojo/maratonajava&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/jefferson/Intellij-workspace/maratona-java/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/img",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/img" />
+      <recent name="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/test" />
+      <recent name="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/introducaoclass/img" />
+      <recent name="$PROJECT_DIR$/src/academy/devdojo/maratonajava/introducao" />
       <recent name="$PROJECT_DIR$/src/academy/devdojo/maratonajava" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Aintroducaoclass/img" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Aula08ArraysMultidimensionais02">
-    <configuration name="Aula04Operadores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.introducao.Aula04Operadores" />
-      <module name="maratona-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.introducao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CarroTest01Exercicio">
     <configuration name="Aula05EstruturasCondicionais" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.introducao.Aula05EstruturasCondicionais" />
       <module name="maratona-java" />
@@ -112,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarroTest01Exercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Aintroducaoclass.test.CarroTest01Exercicio" />
+      <module name="maratona-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.Aintroducaoclass.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarroTest01Exercicio" />
         <item itemvalue="Application.Aula08ArraysMultidimensionais02" />
         <item itemvalue="Application.Aula07Arrays03" />
         <item itemvalue="Application.Aula07Arrays02" />
         <item itemvalue="Application.Aula05EstruturasCondicionais" />
-        <item itemvalue="Application.Aula04Operadores" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675931296657</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1675977137587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675977137587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
