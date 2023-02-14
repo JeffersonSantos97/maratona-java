@@ -13,6 +13,16 @@ package academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio;
     se chama parametro quando está dentro do metodo, agora quando está  nessa classe, vc vai ter que passsar o
     argumento
 
+
+    // varArgs...
+
+     varArgs é a mesma coisa que um Array
+     A diferenca entre eles é que no array eu tenho que criar um array e colocar essa variável de array
+     como parametro.
+     Já o ( VarArgs ) vc pode já criar o array sem passar por uma variável, passar o array direto
+     como parametro dentro da instanicação do metodo
+
+
  */
 public class Calculadora {
 
@@ -35,14 +45,39 @@ public class Calculadora {
 
     // metodo de retorno
     // ( o retorno está na class CalculadoraTest03
-    public double divideDoisNumeros(double num1, double num2){
-        if(num2 == 0 ) {
+    public double divideDoisNumeros(double num1, double num2) {
+        if (num2 == 0) {
 
             return 0;
         }
 
         return num1 / num2;
     }
+        /* VarArgs  CalculadoraTest05*/
+
+        public void somaArray(int[] numeros){
+            int soma = 0;
+
+            for(int numero : numeros) {
+
+                soma += numero;
+            }
+
+            System.out.println(soma);
+
+        }
+
+        // fazendo com VarArgs
+
+        public void somaVarArgs(int...numeros){
+
+            int soma = 0;
+
+            for(int numero : numeros){
+
+                soma+= numero;
+            }
+        }
+    }
 
 
-}
