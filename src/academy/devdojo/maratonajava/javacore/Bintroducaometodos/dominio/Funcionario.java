@@ -14,3 +14,49 @@ Criar uma classe funcionario com os seguintes atributos
 
  */
 
+public class Funcionario{
+
+    public String nome;
+    public int idade;
+    public double[] salarios;
+
+    public void imprimir(){
+
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Idade: " + this.idade);
+       // caso não tenh salarios, nem precisa retornar os salarios
+        if(salarios == null){
+
+            return; // return funciona como break;
+        }
+        for(double salario : salarios){
+
+            System.out.print(salario + " ");
+        }
+
+    imprimirMediaSalarios();
+
+
+    }
+
+    public void imprimirMediaSalarios(){
+       // caso não tenha os salarios já nem precisa fazer a logica da media
+        if(salarios == null ) {
+
+            return; // return funciona como um break
+        }
+        double media = 0;
+
+        for(double salario : salarios ) {
+
+            media+= salario;
+        }
+       media /= salarios.length;
+
+        System.out.println("\nMedia: " + media);
+
+    }
+
+
+
+}
