@@ -8,7 +8,7 @@ package academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio;
 
 
 
-    Parametros são variaveis que estaram vivas dentro do método
+    Parametros são variaveis que estarão vivas dentro do método
 
     se chama parametro quando está dentro do metodo, agora quando está  nessa classe, vc vai ter que passsar o
     argumento

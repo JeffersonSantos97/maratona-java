@@ -28,7 +28,7 @@ public class CarroTest01Exercicio {
         carro2.modelo = "esrtada";
         carro2.ano = 2021;
 
-        // carro1 = carro2;
+        //  carro1 = carro2;
 
         System.out.println(carro1.nome);
         System.out.println(carro1.modelo);
