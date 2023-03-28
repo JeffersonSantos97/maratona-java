@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.javacore.Eblocosinicializacao.dominio;
 // 1 - Alocar espaco em memoria para o objeto
-// 2 - Cada atributo de classe é criado e inicializado com valores default ou o que fir oassada
+// 2 - Cada atributo de classe é criado e inicializado com valores default ou o que for passada
 // 3 - Bloco de inicializacao é executado
 // 4 - Construtor é executado
 

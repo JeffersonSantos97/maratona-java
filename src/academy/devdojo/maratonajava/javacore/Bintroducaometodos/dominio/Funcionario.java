@@ -49,7 +49,7 @@ public class Funcionario{
 
         for(double salario : salarios ) {
 
-            media+= salario;
+            media += salario;
         }
        media /= salarios.length;
 

@@ -1,5 +1,5 @@
 package academy.devdojo.maratonajava.javacore.Fmodificadorestatico.dominio;
-// Static faz o atributor ser pertence a classe e não mais ao objeto
+// Static faz o atributo ser pertence a classe e não mais ao objeto
 // todos os objetos vao receber o mesmo valor
 
 // posso usar um metodo sem precisar criar umas instancia
